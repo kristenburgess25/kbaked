@@ -1,7 +1,7 @@
 <template>
   <base-card dark>
     <v-img
-      :src="require('@/assets/articles/blurcamera.jpg')"
+      :src="require('@/assets/articles/hillscows.png')"
       class="grey lighten-2"
       height="400"
       width="100%"
@@ -23,12 +23,12 @@
             Software Engineer 
           </div>
 
-          <v-btn
+          <!-- <v-btn
             color="primary"
             depressed
           >
             Subscribe
-          </v-btn>
+          </v-btn> -->
         </v-col>
       </v-row>
     </v-img>

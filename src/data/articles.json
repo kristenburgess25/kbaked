@@ -1,14 +1,14 @@
 [
   {
-    "title": "Moroccan Days",
-    "author": "John L",
-    "category": "Travel",
+    "title": "Chocolate Chip Cookies",
+    "author": "The classic.",
+    "category": "Desserts",
     "hero": "moroccandays.jpg"
   },
   {
-    "title": "Swedish Fishing",
-    "author": "Rachel L",
-    "category": "Leisure",
+    "title": "Perfect Butter Croissants",
+    "author": "Just like a French cafe.",
+    "category": "Breads",
     "hero": "autumnclouds.jpg"
   },
   {
@@ -17,13 +17,13 @@
     "prominent": true
   },
   {
-    "title": "Paris in Spring",
+    "title": "French",
     "author": "John L",
     "category": "Travel",
     "hero": "christmas.jpg"
   },
   {
-    "title": "Youthful Independence",
+    "title": "Ranch Favorites",
     "author": "Rachel L",
     "category": "Political",
     "hero": "july4.jpg"
