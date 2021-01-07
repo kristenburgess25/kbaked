@@ -3,10 +3,12 @@
     v-model="drawer"
     app
     dark
+    color="#00a5a7"
     temporary
   >
     <v-list>
       <v-list-item
+        class="nav-item"
         v-for="(link, i) in links"
         :key="i"
         :to="link.to"
@@ -18,6 +20,16 @@
     </v-list>
   </v-navigation-drawer>
 </template>
+
+<style lang="css">
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.nav-item {
+  font-family: 'Yellowtail', cursive, bold;
+  letter-spacing: 2.5px;
+  font-size: 20px;
+}
+</style>
 
 <script>
   // Utilities
