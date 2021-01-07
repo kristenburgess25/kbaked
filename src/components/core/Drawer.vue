@@ -27,7 +27,6 @@
 .nav-item {
   font-family: 'Yellowtail', cursive, bold;
   letter-spacing: 2.5px;
-  font-size: 20px;
 }
 </style>
 

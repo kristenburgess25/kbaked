@@ -6,6 +6,7 @@
       </v-col>
 
       <feed-card
+        class="feed-card"
         v-for="(article, i) in paginatedArticles"
         :key="article.title"
         :size="layout[i]"
@@ -50,6 +51,12 @@
     </v-row>
   </v-container>
 </template>
+
+<style lang="css">
+.feed-card:hover {
+  transform: scale(1.05)
+}
+</style>
 
 <script>
   // Utilities
