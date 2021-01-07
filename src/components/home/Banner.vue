@@ -56,7 +56,7 @@ h1 {
   background-color: rgb(118, 20, 20);
   font-size: 3.75rem !important;
   line-height: 3.75rem;
-  letter-spacing: -0.0083333333em !important;
+  letter-spacing: -0.0093333333em !important;
 }
 </style>
 

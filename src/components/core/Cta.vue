@@ -1,3 +1,4 @@
+  
 <template>
   <v-btn
     :style="styles"
@@ -19,7 +20,6 @@
 <script>
   export default {
     name: 'CoreCta',
-
     computed: {
       styles () {
         return {
