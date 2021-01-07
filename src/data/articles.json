@@ -2,84 +2,84 @@
   {
     "title": "Chocolate Chip Cookies",
     "author": "The classic.",
-    "category": "Desserts",
-    "hero": "moroccandays.jpg"
+    "category": "Cookies",
+    "hero": "chocolate-chip-cookies.jpeg"
   },
   {
-    "title": "Perfect Butter Croissants",
-    "author": "Just like a French cafe.",
-    "category": "Breads",
-    "hero": "autumnclouds.jpg"
+    "title": "Snickerdoodles",
+    "author": "Probably my favorite. (Don't tell the chocolate.)",
+    "category": "Cookies",
+    "hero": "snickerdoodle.jpeg"
   },
   {
     "title": "The Adventure Begins",
-    "hero": "snowcup.jpg",
+    "hero": "croissants.jpeg",
     "prominent": true
   },
   {
-    "title": "French",
-    "author": "John L",
-    "category": "Travel",
-    "hero": "christmas.jpg"
+    "title": "Key Lime Pie Bars",
+    "author": "Not just for summer.",
+    "category": "Pies & Pastries",
+    "hero": "lime-pie-bars.jpeg"
   },
   {
-    "title": "Ranch Favorites",
-    "author": "Rachel L",
-    "category": "Political",
-    "hero": "july4.jpg"
+    "title": "Best Damn Apple Pie",
+    "author": "Seroiously, I have not found better.",
+    "category": "Pies & Pastries",
+    "hero": "apple-pie.jpeg"
   },
   {
-    "title": "Trial By Fire",
-    "author": "Anthony R",
-    "category": "Cooking",
-    "hero": "firepots.jpg"
+    "title": "Nutella Brownies",
+    "author": "No caption necessary.",
+    "category": "Cookies",
+    "hero": "nutella-brownies.jpeg"
   },
   {
-    "title": "Water Ventures",
-    "author": "Rachel L",
-    "category": "Leisure",
-    "hero": "jellyfish.jpg"
+    "title": "Blueberry Scones",
+    "author": "With a fresh lemon glaze.",
+    "category": "Pies & Pastries",
+    "hero": "glazed-blueberry-scone.jpeg"
   },
   {
-    "title": "Mt. Zekial",
-    "author": "Rachel L",
-    "category": "Travel",
-    "hero": "mountaincabin.jpg"
+    "title": "Salted Chocolate Shortbread",
+    "author": "So much butter and chocolate. So simple. So amazing.",
+    "category": "Cookies",
+    "hero": "salted-chocolate-shortbread.jpeg"
   },
   {
-    "title": "Cozumel Caves",
-    "author": "Rachel L",
-    "category": "Travel",
-    "hero": "lightcave.jpg"
+    "title": "Pretzel Bites",
+    "author": "Salted or Cinnamon Sugar",
+    "category": "Bread",
+    "hero": "pretzel-bites.jpeg"
   },
   {
-    "title": "Amazing Ireland",
-    "author": "Rachel L",
-    "category": "Travel",
-    "hero": "greengrass.jpg"
+    "title": "Shortbread Cookies",
+    "author": "Classic & Keto versions",
+    "category": "Keto",
+    "hero": "shortbread-1.jpeg"
   },
   {
-    "title": "Cabin Fever",
-    "author": "Rachel L",
-    "category": "Travel",
-    "hero": "snowcabin.jpg"
+    "title": "Baked Donuts",
+    "author": "10/10 recommend filling w/ jam.",
+    "category": "Bread",
+    "hero": "baked-donuts.jpeg"
   },
   {
-    "title": "To the ancient ruins",
-    "author": "Rachel L",
-    "category": "Travel",
-    "hero": "ruins.jpg"
+    "title": "Apple Cinnamon Scones",
+    "author": "With a salted caramel glaze.",
+    "category": "Pies & Pastries",
+    "hero": "apple-scones-with-glaze.jpeg"
   },
   {
-    "title": "New fashion trends",
-    "author": "Rachel L",
-    "category": "Travel",
-    "hero": "umbrella.jpg"
+    "title": "Baby's First Bagels",
+    "author": "New York Style",
+    "category": "Bread",
+    "hero": "bagels.jpeg"
   },
   {
-    "title": "Go on a vacation",
-    "author": "Rachel L",
-    "category": "Travel",
-    "hero": "adventurecave.jpg"
+    "title": "Olive Garden Knockoff Breadsticks",
+    "author": "One of the few times a knockoff is a good choice.",
+    "category": "Bread",
+    "hero": "breadsticks.jpeg"
   }
 ]

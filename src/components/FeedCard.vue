@@ -35,7 +35,7 @@
             </h3>
 
             <div class="caption">
-              {{ value.author }}<br>Date
+              {{ value.author }}<br>
             </div>
           </v-col>
 
