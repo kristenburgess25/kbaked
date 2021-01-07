@@ -12,8 +12,10 @@
     "hero": "snickerdoodle.jpeg"
   },
   {
-    "title": "The Adventure Begins",
+    "title": "Butteriest Croissants",
+    "author": "Julia Child would approve.",
     "hero": "croissants.jpeg",
+    "category": "Bread",
     "prominent": true
   },
   {
