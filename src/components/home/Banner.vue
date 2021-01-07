@@ -52,7 +52,7 @@
 
 h1 {
   font-family: 'Yellowtail', cursive;
-  color:#2d9d92;
+  color:#00b9bc;
   background-color: rgb(118, 20, 20);
   font-size: 3.75rem !important;
   line-height: 3.75rem;

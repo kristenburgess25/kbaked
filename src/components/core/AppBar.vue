@@ -48,7 +48,7 @@
 
 <style>
 #app-bar {
-  background-color: #2d9d92;
+  background-color: #00a5a7;
 }
 .header-links span {
   /* color:  rgb(118, 20, 20); */
