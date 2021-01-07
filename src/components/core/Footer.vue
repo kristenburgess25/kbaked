@@ -42,32 +42,16 @@
     data: () => ({
       items: [
         {
-          href: '#!',
+          href: 'https://www.twitter.com/kris10_burgess',
           icon: 'mdi-twitter',
         },
         {
-          href: '#!',
+          href: 'https://www.instagram.com/kris10burgess/',
           icon: 'mdi-instagram',
         },
         {
-          href: '#!',
-          icon: 'mdi-facebook',
-        },
-        {
-          href: '#!',
-          icon: 'mdi-google-plus',
-        },
-        {
-          href: '#!',
-          icon: 'mdi-reddit',
-        },
-        {
-          href: '#!',
-          icon: 'mdi-discord',
-        },
-        {
-          href: '#!',
-          icon: 'mdi-pinterest',
+          href: 'mailto:burgess.kris10@gmail.com',
+          icon: 'mdi-email-outline',
         },
       ],
     }),

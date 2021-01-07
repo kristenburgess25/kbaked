@@ -3,16 +3,41 @@
     id="about"
     tag="section"
   >
-    <base-subheading>About Us</base-subheading>
+    <h3 id="about-title">About</h3>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut tortor tellus. Donec maximus curs us pulvinar.
-      Proin vehicula eros mauris, sit amet rutrum libero vestibulum ac. Morbi ullamcorper eu lacus vulputate consect.
-      Etur vivamus sagittis accumsan quam eu malesuada. Proin et ante vel libero ultrices cursus. Donec felis leo, cu
-      rsus eget hendrerit at, congue nec enim.
+    <p id="about-text">
+      As you have probably deduced by now, I love cookies. However, my love for baked goods extends far beyond cookies. 
+      Scones, croissants, cakes, biscuits, bagels, bread, muffins, pies, pastries, sweet, savory - I adore them all! 
+      I have also recently started getting into gluten-free and keto baking, so look for more of that content soon!
     </p>
+    <p id="signature">-Kristen</p>
   </v-container>
 </template>
+
+<style lang="css">
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+#about-title {
+  font-family: 'Yellowtail', cursive;
+  color:rgb(118, 20, 20);
+  font-size: 3.75rem !important;
+  line-height: 3.75rem;
+  letter-spacing: 2px !important;
+  margin: 20px 0px;
+}
+
+#about-text {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+}
+
+#signature {
+  font-family: 'Yellowtail', cursive;
+  color:rgb(118, 20, 20);
+  font-size: 2rem;
+}
+</style>
 
 <script>
   export default {

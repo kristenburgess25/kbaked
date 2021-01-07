@@ -2,6 +2,7 @@
   <v-app-bar
     app
     flat
+    id="app-bar"
   >
     <v-app-bar-nav-icon
       class="hidden-md-and-up"
@@ -10,7 +11,7 @@
 
     <v-container class="mx-auto py-0">
       <v-row align="center">
-        <v-img
+        <!-- <v-img
           :src="require('@/assets/logo.png')"
           class="mr-5"
           contain
@@ -18,13 +19,13 @@
           width="48"
           max-width="48"
           @click="$vuetify.goTo(0)"
-        />
+        /> -->
 
         <v-btn
           v-for="(link, i) in links"
           :key="i"
           v-bind="link"
-          class="hidden-sm-and-down"
+          class="header-links hidden-sm-and-down"
           text
           @click="onClick($event, link)"
         >
@@ -44,6 +45,16 @@
     </v-container>
   </v-app-bar>
 </template>
+
+<style>
+#app-bar {
+  background-color: #2d9d92;
+}
+.header-links span {
+  /* color:  rgb(118, 20, 20); */
+  color: white;
+}
+</style>
 
 <script>
   // Utilities
