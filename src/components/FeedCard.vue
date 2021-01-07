@@ -14,8 +14,47 @@
         height="100%"
         gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
       >
+
         <v-row
           v-if="!value.prominent"
+          class="fill-height text-left ma-0"
+        >
+          <v-col cols="12">
+            <v-chip
+              label
+              class="mx-0 mb-2 text-uppercase"
+              color="rgb(118, 20, 20)"
+              text-color="white"
+              small
+              @click.stop=""
+            >
+              {{ value.category }}
+            </v-chip>
+
+            <h3 class="title font-weight-bold mb-2">
+              {{ value.title }}
+            </h3>
+
+            <div class="caption">
+              {{ value.author }}<br>
+            </div>
+          </v-col>
+
+          <v-col align-self="end">
+            <!-- <v-chip
+              class="text-uppercase ma-0"
+              color="primary"
+              label
+              small
+              @click.stop=""
+            >
+              See Recipe
+            </v-chip> -->
+          </v-col>
+        </v-row>
+        
+        <v-row
+          v-if="value.prominent"
           class="fill-height text-left ma-0"
         >
           <v-col cols="12">
