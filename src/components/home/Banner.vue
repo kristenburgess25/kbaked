@@ -44,14 +44,16 @@
 } */
 
 #banner-subhead {
-  color: purple;
-  background-color: white;
+  color: white;
+  background-color:  rgb(118, 20, 20);
+  text-align: right;
+  padding-right: 10px !important;
 }
 
 h1 {
   font-family: 'Yellowtail', cursive;
   color: teal;
-  background-color: white;
+  background-color: rgb(118, 20, 20);
   font-size: 3.75rem !important;
   line-height: 3.75rem;
   letter-spacing: -0.0083333333em !important;

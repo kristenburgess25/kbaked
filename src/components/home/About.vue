@@ -3,13 +3,12 @@
     id="about"
     tag="section"
   >
-    <base-subheading>About Us</base-subheading>
+    <base-subheading>About Kristen</base-subheading>
 
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut tortor tellus. Donec maximus curs us pulvinar.
-      Proin vehicula eros mauris, sit amet rutrum libero vestibulum ac. Morbi ullamcorper eu lacus vulputate consect.
-      Etur vivamus sagittis accumsan quam eu malesuada. Proin et ante vel libero ultrices cursus. Donec felis leo, cu
-      rsus eget hendrerit at, congue nec enim.
+      As you have probably deduced by now, I love cookies. However, my love for baked goods extends far beyond cookies. 
+      Scones, croissants, cakes, biscuits, bagels, bread, muffins, pies, pastries, sweet, savory - I love them all! 
+      I have also recently started getting into gluten-free and keto baking, so look for more of that content soon!
     </p>
   </v-container>
 </template>
