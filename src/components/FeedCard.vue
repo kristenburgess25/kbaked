@@ -16,13 +16,13 @@
       >
         <v-row
           v-if="!value.prominent"
-          class="fill-height text-right ma-0"
+          class="fill-height text-left ma-0"
         >
           <v-col cols="12">
             <v-chip
               label
               class="mx-0 mb-2 text-uppercase"
-              color="grey darken-3"
+              color="rgb(118, 20, 20)"
               text-color="white"
               small
               @click.stop=""

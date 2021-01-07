@@ -1,7 +1,8 @@
 <template>
   <v-btn
     :style="styles"
-    color="primary"
+    color="#26867d"
+    text-color="white"
     fab
     small
     v-bind="$attrs"

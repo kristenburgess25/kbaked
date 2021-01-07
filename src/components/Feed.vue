@@ -44,7 +44,7 @@
           title="Next page"
           @click="page++"
         >
-          <v-icon>mdi-chevron-right</v-icon>
+          <v-icon color="white">mdi-chevron-right</v-icon>
         </base-btn>
       </v-col>
     </v-row>
