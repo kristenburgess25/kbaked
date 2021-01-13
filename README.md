@@ -1,4 +1,7 @@
-# theme-blog
+# Kristen Loves Cookies Blog 
+
+[Live version of the site can be found here](https://www.kristenlovescookies.com)
+
 
 ## Project setup
 ```
