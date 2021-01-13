@@ -1,6 +1,6 @@
 # Kristen Loves Cookies Blog 
 
-[Live version of the site can be found here](https://www.kristenlovescookies.com)
+🍪 [Live version of the site can be found here](https://www.kristenlovescookies.com)🍪
 
 This project is a baking blog built using Vue.js, leveraging Vuetify. 
 
