@@ -3,6 +3,7 @@
 🍪 [Live version of the site can be found here](https://www.kristenlovescookies.com)🍪
 
 This project is a baking blog built using Vue.js, leveraging Vuetify. 
+Realtime Database and Hosting managed by Google Firebase.
 
 
 ### Project setup
