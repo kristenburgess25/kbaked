@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../views/Home.vue'
 import Post from '../views/Post.vue'
+import Recipe from ''
 
 Vue.use(Router)
 
@@ -15,7 +16,7 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/post',
+      path: '/post/:id',
       name: 'post',
       component: Post,
     },

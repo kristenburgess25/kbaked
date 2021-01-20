@@ -3,13 +3,15 @@
     "title": "Chocolate Chip Cookies",
     "author": "The classic.",
     "category": "Cookies",
-    "hero": "chocolate-chip-cookies.jpeg"
+    "hero": "chocolate-chip-cookies.jpeg",
+    "id": "chocolate-chip-cookies"
   },
   {
     "title": "Snickerdoodles",
     "author": "Probably my favorite. (Don't tell the chocolate.)",
     "category": "Cookies",
-    "hero": "snickerdoodle.jpeg"
+    "hero": "snickerdoodle.jpeg",
+    "id": "snickerdoodle"
   },
   {
     "title": "Butteriest Croissants",
