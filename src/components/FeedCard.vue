@@ -116,7 +116,7 @@ import router from 'vue-router'
     methods: {
       handleClick: function(recipeId) {
         console.log('got the recipe ID', recipeId)
-        router.push({name: 'post', params: {id: recipeId}})
+        this.$router.push({name: 'post', params: {id: recipeId}})
       }
     }
   }
