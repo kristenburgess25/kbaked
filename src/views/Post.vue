@@ -3,7 +3,7 @@
     id="blog-post"
     tag="section"
   >
-    <base-subheading>THIS IS A RECIPE FOR {{id}} </base-subheading>
+    <base-subheading>{{recipe.title}} </base-subheading>
 
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut tortor tellus. Donec maximus curs us pulvinar.
