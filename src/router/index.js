@@ -15,9 +15,10 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/post',
+      path: '/post/:id',
       name: 'post',
       component: Post,
+      props: true,
     },
   ],
 })

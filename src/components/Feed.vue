@@ -11,6 +11,7 @@
         :key="article.title"
         :size="layout[i]"
         :value="article"
+        
       />
     </v-row>
 

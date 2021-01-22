@@ -6,15 +6,16 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     articles: require('@/data/articles.json'),
+    selectedArticle: '',
     drawer: false,
     items: [
       {
         text: 'Home',
-        href: '#!',
+        href: '/',
       },
       {
         text: 'About',
-        href: '#about',
+        href: '/#about',
       },
     ],
   },
@@ -45,6 +46,7 @@ export default new Vuex.Store({
   mutations: {
     setDrawer: (state, payload) => (state.drawer = payload),
     toggleDrawer: state => (state.drawer = !state.drawer),
+    selectArticle: (state, selected) => (state.selectedArticle = selected),
   },
   actions: {
 

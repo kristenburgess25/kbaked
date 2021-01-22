@@ -4,6 +4,7 @@
     :md="size === 2 ? 6 : size === 3 ? 4 : undefined"
   >
     <base-card
+      @click="handleClick(value)"
       :height="value.prominent ? 450 : 350"
       color="grey lighten-1"
       dark
@@ -96,6 +97,8 @@
 </template>
 
 <script>
+import router from 'vue-router'
+
   export default {
     name: 'FeedCard',
 
@@ -109,6 +112,14 @@
         default: () => ({}),
       },
     },
+
+    methods: {
+      handleClick: function(recipe) {
+        console.log('got the recipe ID', recipe)
+        this.$store.commit('selectArticle', recipe)
+        this.$router.push({name: 'post', params: {id: recipe.id}})
+      }
+    }
   }
 </script>
 

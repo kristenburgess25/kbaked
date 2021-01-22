@@ -3,7 +3,7 @@
     id="blog-post"
     tag="section"
   >
-    <base-subheading>THIS IS A BLOG POST</base-subheading>
+    <base-subheading>{{recipe.title}} </base-subheading>
 
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut tortor tellus. Donec maximus curs us pulvinar.
@@ -17,5 +17,21 @@
 <script>
   export default {
     name: 'Post',
+
+    props: {
+      id: {
+        type: String,
+      },
+      recipe: {
+        type: Object,
+        default: () => ({}),
+      }
+    },
+
+    computed: {
+      recipe() {
+        return this.$store.state.selectedArticle
+      }
+    }
   }
 </script>
