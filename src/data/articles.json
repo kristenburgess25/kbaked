@@ -5,8 +5,31 @@
     "category": "Cookies",
     "hero": "chocolate-chip-cookies.jpeg",
     "id": "chocolate-chip-cookies",
-    "ingredients": ["2 cups flour", "1 cup sugar"],
-    "instructions": ["1. Preheat oven to 350", "Combine wet ingredients"]
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Snickerdoodles",
