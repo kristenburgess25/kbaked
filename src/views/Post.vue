@@ -3,13 +3,11 @@
     id="blog-post"
     tag="section"
   >
-    <base-subheading>{{recipe.title}} </base-subheading>
+    <h2>{{recipe.title}} </h2>
+    <br />
 
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut tortor tellus. Donec maximus curs us pulvinar.
-      Proin vehicula eros mauris, sit amet rutrum libero vestibulum ac. Morbi ullamcorper eu lacus vulputate consect.
-      Etur vivamus sagittis accumsan quam eu malesuada. Proin et ante vel libero ultrices cursus. Donec felis leo, cu
-      rsus eget hendrerit at, congue nec enim.
+      {{recipe.introduction}}
     </p>
   </v-container>
 </template>
@@ -20,11 +18,7 @@
 
     props: {
       id: {
-        type: String,
-      },
-      recipe: {
-        type: Object,
-        default: () => ({}),
+        type: String
       }
     },
 
