@@ -8,7 +8,7 @@
         class="feed-card"
         v-for="(article, i) in displayArticles"
         :key="article.title"
-        :size="layout[i]"
+        :size="viewCategory ? 3 : layout[i]"
         :value="article"  
       />
     </v-row>
@@ -26,12 +26,12 @@
         </base-btn>
       </v-col>
 
-      <v-col
+      <!-- <v-col
         class="text-center subheading"
         cols="6"
       >
         PAGE {{ page }} OF {{ pages }}
-      </v-col>
+      </v-col> -->
 
       <v-col
         class="text-right"
@@ -74,11 +74,15 @@
     },
 
     created() {
+      // I feel like most of this logic should live elsewhere
       const route = this.$route.name
       const categories = this.categories
 
       let category = categories.find(category => category.text.toLowerCase() === route)
       let articles = category ? category.recipes : this.articles
+
+      if(category) { this.$store.commit('viewCategory', true) }
+      if(route === 'home') { this.$store.commit('viewCategory', false) }
 
       this.$store.commit('setArticles', articles)
     },
@@ -90,7 +94,11 @@
     }),
 
     computed: {
-      ...mapState(['articles', 'displayArticles']),
+      ...mapState([
+        'articles', 
+        'displayArticles',
+        'viewCategory',
+        ]),
       ...mapGetters(['categories']),
       pages () {
         return Math.ceil(this.displayArticles.length / 11)

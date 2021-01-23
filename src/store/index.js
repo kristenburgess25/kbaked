@@ -9,7 +9,7 @@ export default new Vuex.Store({
     displayArticles: [],
     selectedArticle: '',
     drawer: false,
-    viewCategory: '',
+    viewCategory: false,
     searchOn: false,
     items: [
       {
@@ -103,7 +103,7 @@ export default new Vuex.Store({
     setArticles: (state, payload) => (state.displayArticles = payload),
     toggleDrawer: state => (state.drawer = !state.drawer),
     selectArticle: (state, selected) => (state.selectedArticle = selected),
-    viewCategory: state => (state.viewCategory = !state.viewCategory)
+    viewCategory: (state, payload) => (state.viewCategory = payload)
   },
   actions: {
 
