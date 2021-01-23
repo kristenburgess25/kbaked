@@ -115,8 +115,6 @@ import router from 'vue-router'
 
     methods: {
       handleClick: function(recipe) {
-        console.log('got the recipe ID', recipe)
-        this.$store.commit('selectArticle', recipe)
         this.$router.push({name: 'post', params: {id: recipe.id}})
       }
     }

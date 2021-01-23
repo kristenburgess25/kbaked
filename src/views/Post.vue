@@ -19,7 +19,7 @@
     </p>
     <v-col id="recipe-container" cols="12">
       <div id="ingredient-container">
-        <h3> Ingredients </h3>
+        <h3 class="recipe-subheading"> Ingredients </h3>
         <ul id="ingredient-list">
           <li v-for="ingredient in recipe.recipe.ingredients" :key="ingredient.index">
             {{ ingredient }}
@@ -28,7 +28,7 @@
       </div>
       <br />
       <div id="instructions-container">
-        <h3> Instructions </h3>
+        <h3 class="recipe-subheading"> Instructions </h3>
         <ul id="instructions-list">
           <li v-for="item in recipe.recipe.instructions" :key="item.index">
             {{ item }}
@@ -37,7 +37,7 @@
       </div>
       <br />
       <div id="notes-container">
-        <h3> Notes </h3>
+        <h3 class="recipe-subheading"> Notes </h3>
         <ul id="notes-list">
           <li v-for="item in recipe.recipe.notes" :key="item.index">
             {{ item }}
@@ -62,6 +62,13 @@
       recipe() {
         return this.$store.state.selectedArticle
       }
+    },
+
+    created() {
+        let route = this.$route.params.id
+        let articles = this.$store.state.articles
+        let selected = articles.find( ({ id }) => id === route );
+        this.$store.commit('selectArticle', selected)
     }
   }
 </script>
@@ -69,7 +76,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
-h3 {
+.recipe-subheading {
   font-family: 'Yellowtail', cursive;
   font-size: 1.75rem !important;
   color: #380303;
