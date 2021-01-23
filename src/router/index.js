@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../views/Home.vue'
 import Post from '../views/Post.vue'
+import Categories from '../views/Categories.vue'
 
 Vue.use(Router)
 
@@ -18,6 +19,30 @@ export default new Router({
       path: '/post/:id',
       name: 'post',
       component: Post,
+      props: true,
+    },
+    {
+      path: '/cookies',
+      name: 'cookies',
+      component: Categories,
+      props: true,
+    },
+    {
+      path: '/pastries',
+      name: 'pastries',
+      component: Categories,
+      props: true,
+    },
+    {
+      path: '/bread',
+      name: 'bread',
+      component: Categories,
+      props: true,
+    },
+    {
+      path: '/keto',
+      name: 'keto',
+      component: Categories,
       props: true,
     },
   ],

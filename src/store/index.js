@@ -6,8 +6,11 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     articles: require('@/data/articles.json'),
+    displayArticles: [],
     selectedArticle: '',
     drawer: false,
+    viewCategory: '',
+    searchOn: false,
     items: [
       {
         text: 'Home',
@@ -58,7 +61,7 @@ export default new Vuex.Store({
         if(text === "Cookies"){
           categories.push({
             text,
-            href: '#!',
+            href: '/cookies',
             recipes: cookies
           })
         }
@@ -66,7 +69,7 @@ export default new Vuex.Store({
         if(text === "Bread"){
           categories.push({
             text,
-            href: '#!',
+            href: '/bread',
             recipes: bread
           })
         }
@@ -74,7 +77,7 @@ export default new Vuex.Store({
         if(text === "Pastries"){
           categories.push({
             text,
-            href: '#!',
+            href: '/pastries',
             recipes: pastries
           })
         }
@@ -82,7 +85,7 @@ export default new Vuex.Store({
         if(text === "Keto"){
           categories.push({
             text,
-            href: '#!',
+            href: '/keto',
             recipes: keto
           })
         }
@@ -97,8 +100,10 @@ export default new Vuex.Store({
   },
   mutations: {
     setDrawer: (state, payload) => (state.drawer = payload),
+    setArticles: (state, payload) => (state.displayArticles = payload),
     toggleDrawer: state => (state.drawer = !state.drawer),
     selectArticle: (state, selected) => (state.selectedArticle = selected),
+    viewCategory: state => (state.viewCategory = !state.viewCategory)
   },
   actions: {
 
