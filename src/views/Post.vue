@@ -5,7 +5,12 @@
   >
     <h2>{{recipe.title}} </h2>
     <br />
-
+        <v-img
+        :src="require(`../assets/articles/${recipe.hero}`)"
+        height="100%"
+        gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
+      >
+      </v-img>
     <p>
       {{recipe.introduction}}
     </p>
