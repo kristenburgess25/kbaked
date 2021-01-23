@@ -37,7 +37,33 @@
     "author": "Probably my favorite. (Don't tell the chocolate.)",
     "category": "Cookies",
     "hero": "snickerdoodle.jpeg",
-    "id": "snickerdoodle"
+    "id": "snickerdoodle",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Butteriest Croissants",
@@ -45,6 +71,32 @@
     "hero": "croissants.jpeg",
     "category": "Bread",
     "id": "croissants1",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    },
     "prominent": true
   },
   {
@@ -52,76 +104,362 @@
     "author": "Not just for summer.",
     "category": "Pies & Pastries",
     "hero": "lime-pie-bars.jpeg",
-    "id": "key-lime-pie-bars"
+    "id": "key-lime-pie-bars",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Best Damn Apple Pie",
     "author": "Seroiously, I have not found better.",
     "category": "Pies & Pastries",
     "hero": "apple-pie.jpeg",
-    "id": "best-damn-applie-pie"
+    "id": "best-damn-applie-pie",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Nutella Brownies",
     "author": "No caption necessary.",
     "category": "Cookies",
     "hero": "nutella-brownies.jpeg",
-    "id": "nutella-brownies"
+    "id": "nutella-brownies",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Blueberry Scones",
     "author": "With a fresh lemon glaze.",
     "category": "Pies & Pastries",
     "hero": "glazed-blueberry-scone.jpeg",
-    "id": "glazed-blueberry-scones"
+    "id": "glazed-blueberry-scones",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Salted Chocolate Shortbread",
     "author": "So much butter and chocolate. So simple. So amazing.",
     "category": "Cookies",
     "hero": "salted-chocolate-shortbread.jpeg",
-    "id": "salted-chocolate-shortbread"
+    "id": "salted-chocolate-shortbread",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Pretzel Bites",
     "author": "Salted or Cinnamon Sugar",
     "category": "Bread",
     "hero": "pretzel-bites.jpeg",
-    "id": "pretzel-bites"
+    "id": "pretzel-bites",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Shortbread Cookies",
     "author": "Classic & Keto versions",
     "category": "Keto",
     "hero": "shortbread-1.jpeg",
-    "id": "shortbread-1"
+    "id": "shortbread-1",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Baked Donuts",
     "author": "10/10 recommend filling w/ jam.",
     "category": "Bread",
     "hero": "baked-donuts.jpeg",
-    "id": "baked-donuts"
+    "id": "baked-donuts",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Apple Cinnamon Scones",
     "author": "With a salted caramel glaze.",
     "category": "Pies & Pastries",
     "hero": "apple-scones-with-glaze.jpeg",
-    "id": "apple-cinnamon-scones"
+    "id": "apple-cinnamon-scones",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Baby's First Bagels",
     "author": "New York Style",
     "category": "Bread",
     "hero": "bagels.jpeg",
-    "id": "new-york-style-bagels"
+    "id": "new-york-style-bagels",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Olive Garden Knockoff Breadsticks",
     "author": "One of the few times a knockoff is a good choice.",
     "category": "Bread",
     "hero": "breadsticks.jpeg",
-    "id": "olive-garden-breadsticks"
+    "id": "olive-garden-breadsticks",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   }
 ]

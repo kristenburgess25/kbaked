@@ -3,14 +3,16 @@
     id="blog-post"
     tag="section"
   >
-    <h2>{{recipe.title}} </h2>
+    <h2 id="recipe-title">{{recipe.title}} </h2>
     <br />
-    <v-img
-        :src="require(`../assets/articles/${recipe.hero}`)"
-        height="100%"
-        gradient="rgba(0, 0, 0, .22), rgba(0, 0, 0, .22)"
-      >
-    </v-img>
+    <div id="recipe-image-container">
+      <v-img
+          :src="require(`../assets/articles/${recipe.hero}`)"
+          height="100%"
+          gradient="rgba(0, 0, 0, .22), rgba(0, 0, 0, .22)"
+        >
+      </v-img>
+    </div>
     <br />
     <p>
       {{recipe.introduction}}
@@ -65,11 +67,33 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+h3 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 1.75rem !important;
+  color: #380303;
+}
+
 #instructions-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
+#recipe-image-container {
+  height: 50vh;
+  margin: auto;
+}
+
+#recipe-title {
+  font-family: 'Yellowtail', cursive;
+  font-size: 3.75rem !important;
+  color: #380303;
+  
+}
+
+
 /* #recipe-container {
   display: flex;
   flex-direction: row;
