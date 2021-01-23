@@ -5,6 +5,7 @@
     "category": "Cookies",
     "hero": "chocolate-chip-cookies.jpeg",
     "id": "chocolate-chip-cookies",
+    "images": [],
     "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
     "recipe": {
       "ingredients": [
@@ -36,14 +37,79 @@
     "author": "Probably my favorite. (Don't tell the chocolate.)",
     "category": "Cookies",
     "hero": "snickerdoodle.jpeg",
-    "id": "snickerdoodle"
+    "id": "snickerdoodle",
+    "images": [],
+    "introduction": "One of my absolute favorites, all year round.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1½ cup granulated sugar",
+        "2 large eggs",
+        "2 teaspoon vanilla",
+        "2¾ cups flour",
+        "1 teaspoon salt",
+        "½ teaspoon baking soda",
+        "1½ teaspoon cream of tartar"
+        ],
+      "instructions": [
+        "1. Heat oven to 350 degrees.", 
+        "2. 2. In a large mixing bowl, cream butter and sugar for 4-5 minutes until light and fluffy.  Scrape the sides of the bowl and add the eggs and vanilla. Cream for 1-2 minutes longer.",
+        "3. Stir in flour, cream of tartar, baking soda, and salt, just until combined. .",
+        "4. In a small bowl, stir together sugar and cinnamon.",
+        "5. If time allows, wrap the dough and let refrigerate for 20-30 minutes.  Roll into small balls until round and smooth.  Drop into the cinnamon-sugar mixture and coat well. Using a spoon, coat for a second time, ensuring the cookie balls are completely covered.",
+        "6. Place on a parchment paper-lined baking sheet. Bake for 9-11 minutes.  Let cool for several minutes on baking sheet before removing from the pan."
+      ],
+      "notes": ["To make flatter snickerdoodles, press down in the center of the ball before placing in the oven. This helps to keep them from puffing up in the middle."]
+    }
   },
   {
-    "title": "Butteriest Croissants",
+    "title": "Sally's Croissants",
     "author": "Julia Child would approve.",
     "hero": "croissants.jpeg",
     "category": "Bread",
     "id": "croissants1",
+    "images": [],
+    "introduction": "There is literally nothing better than fresh baked croissants. When you make them yourself, the reward is that much sweeter- because these buttery babies are definitely a labor of love. But they are soooOOooo worth it! I owe thanks to Sally of Sally's Baking Addiction for many great recipes, including this one!",
+    "recipe": {
+      "ingredients": [
+        "1/4 cup unsalted butter, softened to room temperature",
+        "1/4 cup granulated sugar",
+        "4 cups all purpose flour",
+        "2 teaspoons salt",
+        "1 Tablespoon active dry or instant yeast",
+        "1½ cups cold whole milk or cream",
+        "1½ cups (3 sticks) unsalted butter, softened to room temperature",
+        "2 Tablespoons all purpose flour",
+        "1 large egg",
+        "2 Tablespoons whole milk or cream"
+        ],
+      "instructions": [
+        "1. Read the wholerecipe before beginning. Make room in the refrigerator for a baking sheet. In step 6 and again in step 13, you will need room for 2 baking sheets.", 
+        "2. Make the dough: Cut 1/4 cup butter in four 1-Tablespoon pieces and place in the bowl of an electric stand mixer fitted with the dough hook attachment (or you can use a handheld mixer or no mixer, but a stand mixer is ideal). Add the flour, sugar, salt, and yeast. Turn the mixer on low-medium speed to gently combine the ingredients for 1 minute. With the mixer running, slowly pour in the milk. Once all of the milk is added, turn the mixer up to medium speed and beat the dough for at least 5 full minutes. (If you don’t have a mixer, knead by hand for 5 minutes.) The dough will be soft. It will (mostly) pull away from the sides of the bowl and if you poke it with your finger, it will bounce back. If after 5 minutes the dough is too sticky, keep the mixer running until it pulls away from the sides of the bowl.",
+        "3. Remove dough from the bowl and, with floured hands, work it into a ball. Place the dough on a lightly floured silicone baking mat lined, lightly floured parchment paper lined, or lightly floured baking sheet. (I highly recommend a silicone baking mat because you can roll the dough out in the next step directly on top and it won’t slide all over the counter.) Gently flatten the dough out, as I do in the video above, and cover with plastic wrap or aluminum foil. Place the entire baking sheet in the refrigerator and allow the covered dough to rest in the refrigerator for 30 minutes.",
+        "4. Shape the dough: Remove the dough from the refrigerator. I like to keep the dough on the silicone baking mat when I’m rolling it in this step because the mat is nonstick and it’s a handy guide for the exact measurement. Begin flattening out the dough with your hands. You’re rolling it out into a rectangle in this step, so shaping it with your hands first helps the stretchy dough. Roll it into a 14×10-inch rectangle. The dough isn’t extremely cold after only 30 minutes in the refrigerator, so it will feel more like soft play-doh. Be precise with the measurement. The dough will want to be oval shaped, but keep working the edges with your hands and rolling pin until you have the correct size rectangle.",
+        "5. Long rest: Place the rolled out dough back onto the baking sheet (this is why I prefer a silicone baking mat or parchment because you can easily transfer the dough). Cover the rolled out dough with plastic wrap or aluminum foil, place the entire baking sheet in the refrigerator and allow the covered dough to rest in the refrigerator for 4 hours or overnight. (Up to 24 hours is ok.)",
+        "6. Butter layer (begin this 35 minutes before the next step so the butter can chill for 30 minutes): In a large bowl using a hand-held mixer or stand mixer fitted with a paddle or whisk attachment, beat the butter and flour together until smooth and combined. Transfer the mixture to a silicone baking mat lined or parchment paper lined baking sheet. (Silicone baking mat is preferred because you can easily peel the butter off in the next step.) Using a spoon or small spatula, smooth out into a 7×10-inch rectangle. Be as precise as you can with this measurement. Place the entire baking sheet in the refrigerator and chill the butter layer for 30 minutes. (No need to cover it for only 30 minutes.) You want the butter layer firm, but still pliable. If it gets too firm, let it sit out on the counter for a few minutes to gently soften. The more firm the butter layer is the more difficult it will be to laminate the dough in the next step.",
+        "7. Laminate the dough: In this next step, you will be rolling out the dough into a large rectangle. Do this on a lightly floured counter instead of rolling out on your silicone baking mat. The counter is typically a little cooler (great for keeping the dough cold) and the silicone baking mat is smaller than the measurement you need. Remove both the dough and butter layers from the refrigerator. Place the butter layer in the center of the dough and fold each end of the dough over it. If the butter wasn’t an exact 7×10-inch rectangle, use a pizza cutter or sharp knife to even out the edges. Seal the dough edges over the butter layer as best you can with your fingers. On a lightly floured counter, roll the dough into a 10×20-inch rectangle. It’s best to roll back and forth with the shorter end of the dough facing you, like I do in the video above. Use your fingers if you need to. The dough is very cold, so it will take a lot of arm muscle to roll. Again, the dough will want to be oval shaped, but keep working it with your hands and rolling pin until you have the correct size rectangle. Fold the dough lengthwise into thirds as if you were folding a letter. This was the 1st turn.",
+        "8. If the dough is now too warm to work with, place folded dough on the baking sheet, cover with plastic wrap or aluminum foil, and refrigerate for 30 minutes before the 2nd turn. I usually don’t have to.",
+        "9. 2nd turn: Turn the dough so the short end is facing you. Roll the dough out once again into a 10×20-inch rectangle, then fold the dough lengthwise into thirds as if you were folding a letter. The dough must be refrigerated between the 2nd and 3rd turn because it has been worked with a lot by this point. Place the folded dough on the baking sheet, cover with plastic wrap or aluminum foil, and refrigerate for 30 minutes before the 3rd turn.",
+        "10. 3rd turn: Roll the dough out once again into a 10×20-inch rectangle. Fold the dough lengthwise into thirds as if you were folding a letter.",
+        "Long rest: Place the folded dough on the lined baking sheet, cover with plastic wrap or aluminum foil, and refrigerate for 4 hours or overnight. (Up to 24 hours is ok.)",
+        "12. At the end of the next step, you’ll need 2 baking sheets lined with silicone baking mats or parchment paper. The dough is currently on a lined baking sheet in the refrigerator, so you already have 1 prepared!",
+        "13. Shape the croissants: Remove the dough from the refrigerator. On a lightly floured counter, roll the dough out into an 8×20-inch rectangle. Use your fingers if you need to. Once again, the dough is very cold, so it will take a lot of arm muscle to roll. The dough will want to be oval shaped, but keep working it with your hands and rolling pin until you have the correct size rectangle. Using a pizza cutter or sharp knife, slice the dough in half vertically. Each skinny rectangle will be 4-inches wide. Then cut 3 even slices horizontally, yielding 8 4×5-inch rectangles. See photo and video above for a visual. Cut each rectangle diagonally to make 2 triangles. You have 16 triangles now. Work with one triangle at a time. Using your fingers or a rolling pin, stretch the triangle to be about 8 inches long. Do this gently as you do not want to flatten the layers. Cut a small slit at the wide end of the triangle, then tightly roll up into a crescent shape making sure the tip is underneath. Slightly bend the ends in towards each other. Repeat with remaining dough, placing the shaped croissants on 2 lined baking sheets, 8 per sheet. Loosely cover with plastic wrap or aluminum foil and allow to rest at room temperature (no warmer– I suggest keeping on the counter) for 1 hour, then place in the refrigerator to rest for 1 hour or up to 12 hours. (Or freeze, see freezing instructions.) I prefer the shaped croissants to be cold going into the oven.",
+        "14. Preheat oven to 400°F (204°C).",
+        "15. Egg wash: Whisk the egg wash ingredients together. Remove the croissants from the refrigerator. Brush each lightly with egg wash.",
+        "16. Bake the croissants: Bake until croissants are golden brown, about 20 minutes. Rotate the pans halfway through baking. If croissants show signs of darkening too quickly, reduce the oven to 375°F (190°C).",
+        "17. Remove croissants from the oven and place on a wire rack to cool for a few minutes before serving. They will slightly deflate as they cool.",
+        "18. BASK IN YOUR BEAUTIFUL BUTTERY SWEET SUCCESS 🥐"
+
+      ],
+      "notes": [
+        "KEEP THE DOUGH COLD. This cannot be empahsized enough. Make sure the dough is ALWAYS cold. If it warms up too much, stop what you’re doing and place the dough back in the refrigerator for 20 minutes.",
+        "Croissants taste best the same day they’re baked. Cover any leftover croissants and store at room temperature for a few days or in the refrigerator for up to 1 week. You can also freeze for up to 3 months, then thaw on the counter or overnight in the refrigerator. Warm up to your liking.",
+        "Make Ahead Instructions: Croissants are perfect for getting started ahead of time. The dough can rest for 4 hours or overnight in step 5 and again in step 11. You can also freeze the dough after the 3rd turn in the lamination process (after step 10). Instead of the 4 hour rest in the refrigerator in step 11, wrap the dough tightly in plastic wrap or aluminum foil, place in a freezer zipped-top bag, and freeze for up to 3 months. Thaw in the refrigerator and continue with step 12. You can also freeze the shaped croissants after they rest for 1 hour at room temperature in step 13. (Before placing in the refrigerator.) Cover them tightly and freeze for up to 1 month. Thaw completely in the refrigerator, then bake as directed."
+      ]
+    },
     "prominent": true
   },
   {
@@ -51,76 +117,362 @@
     "author": "Not just for summer.",
     "category": "Pies & Pastries",
     "hero": "lime-pie-bars.jpeg",
-    "id": "key-lime-pie-bars"
+    "id": "key-lime-pie-bars",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Best Damn Apple Pie",
     "author": "Seroiously, I have not found better.",
     "category": "Pies & Pastries",
     "hero": "apple-pie.jpeg",
-    "id": "best-damn-applie-pie"
+    "id": "best-damn-applie-pie",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Nutella Brownies",
     "author": "No caption necessary.",
     "category": "Cookies",
     "hero": "nutella-brownies.jpeg",
-    "id": "nutella-brownies"
+    "id": "nutella-brownies",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Blueberry Scones",
     "author": "With a fresh lemon glaze.",
     "category": "Pies & Pastries",
     "hero": "glazed-blueberry-scone.jpeg",
-    "id": "glazed-blueberry-scones"
+    "id": "glazed-blueberry-scones",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Salted Chocolate Shortbread",
     "author": "So much butter and chocolate. So simple. So amazing.",
     "category": "Cookies",
     "hero": "salted-chocolate-shortbread.jpeg",
-    "id": "salted-chocolate-shortbread"
+    "id": "salted-chocolate-shortbread",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Pretzel Bites",
     "author": "Salted or Cinnamon Sugar",
     "category": "Bread",
     "hero": "pretzel-bites.jpeg",
-    "id": "pretzel-bites"
+    "id": "pretzel-bites",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Shortbread Cookies",
     "author": "Classic & Keto versions",
     "category": "Keto",
     "hero": "shortbread-1.jpeg",
-    "id": "shortbread-1"
+    "id": "shortbread-1",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Baked Donuts",
     "author": "10/10 recommend filling w/ jam.",
     "category": "Bread",
     "hero": "baked-donuts.jpeg",
-    "id": "baked-donuts"
+    "id": "baked-donuts",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Apple Cinnamon Scones",
     "author": "With a salted caramel glaze.",
     "category": "Pies & Pastries",
     "hero": "apple-scones-with-glaze.jpeg",
-    "id": "apple-cinnamon-scones"
+    "id": "apple-cinnamon-scones",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Baby's First Bagels",
     "author": "New York Style",
     "category": "Bread",
     "hero": "bagels.jpeg",
-    "id": "new-york-style-bagels"
+    "id": "new-york-style-bagels",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   },
   {
     "title": "Olive Garden Knockoff Breadsticks",
     "author": "One of the few times a knockoff is a good choice.",
     "category": "Bread",
     "hero": "breadsticks.jpeg",
-    "id": "olive-garden-breadsticks"
+    "id": "olive-garden-breadsticks",
+    "images": [],
+    "introduction": "This is the 'famous' $250 Neiman Marcus chocolate chip cookie recipe. I have yet to find another recipe that I love as much and that turns out so consistently amazing. I often make them without the grated chocoalte bar and nuts, and they are just as good! I think the blended oatmeal in these is what gives them such a great texture and flavor.",
+    "recipe": {
+      "ingredients": [
+        "1 cup butter",
+        "1 cup dark brown sugar, packed",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "2 ½ cups oatmeal",
+        "2 cups flour",
+        "½ teaspoon salt",
+        "1 teaspoon baking soda",
+        "1 teaspoon baking powder",
+        "12 ounces chocolate chips",
+        "1 4-ounce milk chocolate bar",
+        "1 ½ cups chopped nuts"
+        ],
+      "instructions": [
+        "1. Heat oven to 375 degrees.", 
+        "2. Cream together butter and both sugars. Stir in eggs and vanilla.",
+        "3.Finely grind oatmeal in a blender or food processor. Combine the oatmeal, flour, salt, baking powder and soda in a medium bowl, and slowly add it to the wet ingredients. Beat just until combined. Grate chocolate bar using a microplane grater and add it, along with chocolate chips and nuts to the batter. Mix just to combine.",
+        "4. Drop by heaping tablespoonfuls, 2 inches apart, on a greased cookie sheet. Bake for 10 minutes."
+      ],
+      "notes": ["These turn out even better if you allow the dough to rest a couple hours up to overnight."]
+    }
   }
 ]
