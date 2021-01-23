@@ -33,6 +33,15 @@
           </li>
         </ul> 
       </div>
+      <br />
+      <div id="notes-container">
+        <h3> Notes </h3>
+        <ul id="notes-list">
+          <li v-for="item in recipe.recipe.notes" :key="item.index">
+            {{ item }}
+          </li>
+        </ul> 
+      </div>
     </v-col>
   </v-container>
 </template>
