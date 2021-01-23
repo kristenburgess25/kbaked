@@ -5,7 +5,7 @@
   >
     <base-card
       @click="handleClick(value)"
-      :height="value.prominent ? 450 : 350"
+      :height="value.prominent ? prominentHeight : 350"
       color="grey lighten-1"
       dark
     >
@@ -97,6 +97,9 @@
 
 <script>
 import router from 'vue-router'
+  import {
+    mapState,
+  } from 'vuex'
 
   export default {
     name: 'FeedCard',
@@ -110,6 +113,21 @@ import router from 'vue-router'
         type: Object,
         default: () => ({}),
       },
+    },
+
+    computed: {
+      ...mapState([
+        'viewCategory'
+      ]),
+      prominentHeight() {
+        let viewingCategory = this.viewCategory
+        if(viewingCategory) {
+          return 350
+        } 
+        if(this.$route.name === 'home') {
+          return 450
+        }
+      }
     },
 
     methods: {

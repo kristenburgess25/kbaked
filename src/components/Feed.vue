@@ -4,14 +4,12 @@
       <v-col cols="12">
         <slot />
       </v-col>
-
       <feed-card
         class="feed-card"
-        v-for="(article, i) in paginatedArticles"
+        v-for="(article, i) in displayArticles"
         :key="article.title"
-        :size="layout[i]"
-        :value="article"
-        
+        :size="viewCategory ? 3 : layout[i]"
+        :value="article"  
       />
     </v-row>
 
@@ -28,12 +26,12 @@
         </base-btn>
       </v-col>
 
-      <v-col
+      <!-- <v-col
         class="text-center subheading"
         cols="6"
       >
         PAGE {{ page }} OF {{ pages }}
-      </v-col>
+      </v-col> -->
 
       <v-col
         class="text-right"
@@ -65,6 +63,7 @@
   // Utilities
   import {
     mapState,
+    mapGetters,
   } from 'vuex'
 
   export default {
@@ -74,21 +73,41 @@
       FeedCard: () => import('@/components/FeedCard'),
     },
 
+    created() {
+      // I feel like most of this logic should live elsewhere
+      const route = this.$route.name
+      const categories = this.categories
+
+      let category = categories.find(category => category.text.toLowerCase() === route)
+      let articles = category ? category.recipes : this.articles
+
+      if(category) { this.$store.commit('viewCategory', true) }
+      if(route === 'home') { this.$store.commit('viewCategory', false) }
+
+      this.$store.commit('setArticles', articles)
+    },
+
+
     data: () => ({
       layout: [2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3],
       page: 1,
     }),
 
     computed: {
-      ...mapState(['articles']),
+      ...mapState([
+        'articles', 
+        'displayArticles',
+        'viewCategory',
+        ]),
+      ...mapGetters(['categories']),
       pages () {
-        return Math.ceil(this.articles.length / 11)
+        return Math.ceil(this.displayArticles.length / 11)
       },
       paginatedArticles () {
         const start = (this.page - 1) * 11
         const stop = this.page * 11
 
-        return this.articles.slice(start, stop)
+        return this.displayArticles.slice(start, stop)
       },
     },
 

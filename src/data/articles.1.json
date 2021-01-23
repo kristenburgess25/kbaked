@@ -118,7 +118,7 @@
   {
     "title": "Key Lime Pie Bars",
     "author": "Not just for summer.",
-    "category": "Pastries",
+    "category": "Pies & Pastries",
     "tags": ["pastries"],
     "hero": "lime-pie-bars.jpeg",
     "id": "key-lime-pie-bars",
@@ -133,7 +133,7 @@
   {
     "title": "Best Damn Apple Pie",
     "author": "Seroiously, I have not found better.",
-    "category": "Pastries",
+    "category": "Pies & Pastries",
     "tags": ["pastries"],
     "hero": "apple-pie.jpeg",
     "id": "best-damn-apple-pie",
@@ -227,6 +227,51 @@
     "tags": ["bread"],
     "hero": "baked-donuts.jpeg",
     "id": "baked-donuts",
+    "images": [],
+    "introduction": "",
+    "recipe": {
+      "ingredients": [],
+      "instructions": [],
+      "notes": []
+    }
+  },
+  {
+    "title": "Apple Cinnamon Scones",
+    "author": "With a salted caramel glaze.",
+    "category": "Pastries",
+    "tags": ["pastries"],
+    "hero": "apple-scones-with-glaze.jpeg",
+    "id": "apple-cinnamon-scones",
+    "images": [],
+    "introduction": "",
+    "recipe": {
+      "ingredients": [],
+      "instructions": [],
+      "notes": []
+    }
+  },
+  {
+    "title": "Baby's First Bagels",
+    "author": "New York Style",
+    "category": "Bread",
+    "tags": ["bread"],
+    "hero": "bagels.jpeg",
+    "id": "new-york-style-bagels",
+    "images": [],
+    "introduction": "",
+    "recipe": {
+      "ingredients": [],
+      "instructions": [],
+      "notes": []
+    }
+  },
+  {
+    "title": "Olive Garden Knockoff Breadsticks",
+    "author": "One of the few times a knockoff is a good choice.",
+    "category": "Bread",
+    "tags": ["bread"],
+    "hero": "breadsticks.jpeg",
+    "id": "olive-garden-breadsticks",
     "images": [],
     "introduction": "",
     "recipe": {

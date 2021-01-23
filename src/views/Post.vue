@@ -17,7 +17,7 @@
     <p>
       {{recipe.introduction}}
     </p>
-    <v-col id="recipe-container" cols="12">
+    <v-col v-if="recipe.recipe.ingredients.length" id="recipe-container" cols="12">
       <div id="ingredient-container">
         <h3 class="recipe-subheading"> Ingredients </h3>
         <ul id="ingredient-list">
@@ -45,6 +45,9 @@
         </ul> 
       </div>
     </v-col>
+    <div v-else id="coming-soon">
+      <h3 class="recipe-subheading"> Recipe Coming Soon 👩‍🍳 </h3>
+    </div>
   </v-container>
 </template>
 
