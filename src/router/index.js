@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Home from '../views/Home.vue'
 import Post from '../views/Post.vue'
 import Categories from '../views/Categories.vue'
+import About from '../views/About.vue'
+
 
 Vue.use(Router)
 
@@ -16,10 +18,16 @@ export default new Router({
       component: Home,
     },
     {
+      path: '/about',
+      name: 'about',
+      component: About,
+    },
+    {
       path: '/post/:id',
       name: 'post',
       component: Post,
       props: true,
+      // can use this same path for 'Baking Tips' posts 
     },
     {
       path: '/cookies',
