@@ -247,7 +247,7 @@
     }
   },
   {
-    "title": "Pretzel Bites",
+    "title": "Soft Pretzel Bites",
     "author": "Salted or Cinnamon Sugar",
     "category": "Bread",
     "tags": ["bread"],
@@ -256,8 +256,28 @@
     "images": [],
     "introduction": "",
     "recipe": {
-      "ingredients": [],
-      "instructions": [],
+      "ingredients": [
+        "2 1/4 teaspoons (1 pkg.) Active Yeast",
+        "1 cup Warm Water (about 110 degrees)",
+        "1/4 cup Honey",
+        "3 cups Bread Flour (or all-purpose)",
+        "1 1/4 teaspoons Salt",
+        "Water",
+        "3 Tablespoons Baking Soda",
+        "1 large Egg (beaten)",
+        "Coarse Salt",
+        "6 Tablespoons Butter"
+      ],
+      "instructions": [
+        "1. In a small bowl, mix together yeast and warm water. Let start to work and activate for 10 minutes. Stir in honey.",
+        "2. In a large mixing bowl, add flour and salt. Stir in activated yeast mixture. Using a dough hook, knead for about 5-6 minutes.",
+        "3. Place dough in a lightly oiled large bowl. Cover with plastic wrap and let rise until doubled in size, about 1 1/2 hours. After it has doubled in size, punch the dough and let rise again for 45 minutes.",
+        "4. Heat oven to 450 degrees. Pour 6 cups of water into the 12-inch skillet and add baking soda. Bring to a boil over high heat.",
+        "5. Divide the dough into 4 pieces. Roll each piece into a 20 to 24-inch long rope. Cut into bite-size pieces.",
+        "6. Using a slotted spoon, gently place the pretzels into the boiling water for 45 seconds. Remove the pretzels with a slotted spoon and drain well. Place onto the Silpat or parchment paper-lined baking sheet.",
+        "7. In a small bowl, beat egg to make an egg wash. Brush egg wash over pretzels. Sprinkle with coarse salt. Bake for 10-12 minutes, or until the pretzels are golden brown. Generously brush with melted butter on all sides.",
+        "8. If making cinnamon-sugar pretzels, roll the pretzel bites into the cinnamon-sugar mixture."
+      ],
       "notes": []
     }
   },
