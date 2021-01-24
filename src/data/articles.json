@@ -282,17 +282,26 @@
     }
   },
   {
-    "title": "Shortbread Cookies",
-    "author": "Classic & Keto versions",
-    "category": "Keto",
+    "title": "Shortbread Base",
+    "author": "Delicious on their own or with toppings, and a perfect base for pie and cheesecake bars! ",
+    "category": "Cookies",
     "tags": ["cookies", "keto"],
     "hero": "shortbread-1.jpeg",
     "id": "shortbread-1",
     "images": [],
     "introduction": "",
     "recipe": {
-      "ingredients": [],
-      "instructions": [],
+      "ingredients": [
+        "1/2 cup softened butter", 
+        "1/8 cup (2T) confectioners' sugar", 
+        "1/8 cup Regular sugar",
+        "1 cup all purpose flour"
+      ],
+      "instructions": [
+        "Mix in flour to sugar mix until it’s moist. You don’t want to over mix it, or it will overdevelop the gluten and lose the delicate shortbread crumb. So, just mix until flour Is moist; you want it to be crumbly.", 
+        "Put shortbread mix in cake pan and spread evenly. Dock/perforate the evenly spread dough with a fork.", 
+        "Put in oven for 10-12 minutes; take out when edges are turning golden brown."
+      ],
       "notes": []
     }
   },
