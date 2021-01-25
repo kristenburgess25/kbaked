@@ -129,18 +129,33 @@
     "hero": "lime-pie-bars.jpeg",
     "id": "key-lime-pie-bars",
     "images": [],
-    "introduction": "The original recipe is from NYT Cooking, but I adapted it to use a shortbread crust instead of vanilla wafers",
+    "introduction": "The original recipe is from NYT Cooking and uses a vanilla wafer crust, as included in the instructions below. When I made it, I used my shortbread base instead.",
     "recipe": {
-      "yield": "",
-      "prep-time": "",
-      "ingredients": [],
-      "instructions": [],
+      "yield": "16 servings",
+      "prep-time": "45 minutes, plus chilling",
+      "ingredients": [
+        "1 (11-ounce) box vanilla wafers",
+        "2 tablespoons granulated sugar",
+        "8 tablespoons unsalted butter, melted",
+        "1 ¾ cup/420 milliliters condensed milk (1 14-ounce can plus 1/2 cup)",
+        "5 large egg yolks",
+        "¾ cup Key lime or conventional lime juice",
+        "1 teaspoon lime zest",
+        "1 cup/240 milliliters cold heavy cream",
+        "1 tablespoon confectioners’ sugar"
+      ],
+      "instructions": [
+        "1. Heat oven to 350 degrees. Line a 9-inch square pan with parchment paper, leaving a 2-inch overhang on two sides. In a food processor, combine          vanilla wafers and sugar, and pulse until you have fine crumbs. Add butter and process until evenly moistened. Transfer mixture to prepared pan           and press it down into an even layer. Bake until fragrant and a shade darker, 15 to 17 minutes.",
+        "2. Meanwhile, prepare the filling: In a medium bowl, whisk together condensed milk, egg yolks, lime juice and lime zest.",
+        "3. Pour filling over crust (it’s O.K. if it’s still warm) and bake until the filling is set, about 15 minutes. Transfer to a rack to cool                 completely, then cover and refrigerate for at least 4 hours.",
+        "4. Use a sharp knife to release edges. Using the parchment overhang, carefully lift and transfer the bar to a cutting board. Just before serving,         whip heavy cream and confectioners’ sugar until soft peaks form. Top bars with whipped cream and cut into 16 squares to serve."
+      ],
       "notes": []
     }
   },
   {
     "title": "Best Damn Apple Pie",
-    "author": "Seroiously, I have not found better.",
+    "author": "Seriously, I have not found better.",
     "category": "Pastries",
     "tags": ["pastries"],
     "hero": "apple-pie.jpeg",
@@ -148,8 +163,8 @@
     "images": [],
     "introduction": "",
     "recipe": {
-      "yield": "",
-      "prep-time": "",
+      "yield": "1 pie, 8 servings",
+      "prep-time": "1 hour, 30 minutes",
       "ingredients": [
         "2 tablespoons unsalted butter",
         "2 ½ pounds apples, peeled and cored, then cut into wedges (5 large honeycrisps will do it)",
@@ -160,7 +175,7 @@
         "2 tablespoons all-purpose flour",
         "2 teaspoons cornstarch",
         "1 tablespoon apple cider vinegar",
-        "1 recipe all-purpose pie dough",
+        "1 recipe all-purpose pie dough or 1 premade pie crust",
         "1 egg, lightly beaten"
       ],
       "instructions": [
