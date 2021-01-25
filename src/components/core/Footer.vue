@@ -50,7 +50,7 @@
           icon: 'mdi-instagram',
         },
         {
-          href: 'mailto:burgess.kris10@gmail.com',
+          href: 'mailto:kristenlovescookies@gmail.com',
           icon: 'mdi-email-outline',
         },
       ],
