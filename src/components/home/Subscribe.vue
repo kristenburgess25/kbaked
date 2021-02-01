@@ -27,8 +27,11 @@
               >
                 <v-text-field
                   hide-details
+                  v-model="email"
+                  class="textarea"
                   label="Your Email Address"
                   solo
+
                 />
               </v-responsive>
 
@@ -38,6 +41,7 @@
                 class="ma-0"
                 color="#00b9bc"
                 style="height: 48px"
+                @click="handleClick()"
               >
                 Subscribe
               </v-btn>
@@ -115,7 +119,21 @@
 <script>
   export default {
     name: 'HomeSubscribe',
+
+    data () {
+      return {
+        email: '',
+      }
+    },
+
+    methods: {
+      handleClick: function() {
+        console.log(this.email)
+      }
+    }
   }
+
+
 </script>
 
 <style>
