@@ -4,14 +4,12 @@
     tag="section"
   >
     <base-card
-      color="rgba(203, 170, 92, 0.51)"
+      color="rgb(118, 20, 20)"
       class="pa-3"
     >
-      <v-container>
+      <v-container id="subscribe-container">
         <v-row>
           <v-col
-            cols="12"
-            md="5"
           >
             <base-subheading class="mb-3">
               Subscribe
@@ -36,8 +34,9 @@
 
               <v-btn
                 :block="$vuetify.breakpoint.xsOnly"
+                id="subscribe-btn"
                 class="ma-0"
-                color="secondary"
+                color="#00b9bc"
                 style="height: 48px"
               >
                 Subscribe
@@ -45,7 +44,7 @@
             </v-row>
           </v-col>
 
-          <v-col
+          <!-- <v-col
             cols="12"
             md="6"
             offset-md="1"
@@ -106,7 +105,7 @@
                 </v-list-item-subtitle>
               </v-list-item>
             </v-list>
-          </v-col>
+          </v-col> -->
         </v-row>
       </v-container>
     </base-card>
@@ -118,3 +117,14 @@
     name: 'HomeSubscribe',
   }
 </script>
+
+<style>
+  #subscribe-container {
+    color: white;
+  }
+
+  #subscrine-btn {
+    height: 48px;
+    background-color: #00b9bc;
+  }
+</style>
