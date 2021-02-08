@@ -7,7 +7,8 @@
     <br />
     <div id="recipe-image-container">
       <v-img
-          :src="require(`../assets/articles/${recipe.hero}`)"
+          id="recipe-image"
+          :src="recipe.image"
           height="100%"
           gradient="rgba(0, 0, 0, .22), rgba(0, 0, 0, .22)"
         >
@@ -94,6 +95,12 @@
 #recipe-image-container {
   height: 50vh;
   margin: auto;
+}
+
+#recipe-image {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
 }
 
 #recipe-title {

@@ -54,9 +54,7 @@
 <style lang="css">
 .feed-card:hover {
   transform: scale(1.05);
-  /* below is attempting to have image turn brighter/remove gradient on hover 
-  /* background-image: linear-gradient(to right, rgba(0, 0, 0, .22), rgba(0, 0, 0, .22)) ; */
-}
+}  
 </style>
 
 <script>

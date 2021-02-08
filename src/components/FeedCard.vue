@@ -4,15 +4,17 @@
     :md="size === 2 ? 6 : size === 3 ? 4 : undefined"
   >
     <base-card
+
       @click="handleClick(value)"
       :height="value.prominent ? prominentHeight : 350"
       color="grey lighten-1"
       dark
     >
       <v-img
+        class="card-image"
         :src="value.image"
         height="100%"
-        gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
+        gradient="rgba(0, 0, 0, .32), rgba(0, 0, 0, .32)"
       >
 
         <v-row
@@ -139,7 +141,30 @@ import router from 'vue-router'
 </script>
 
 <style>
-.v-image__image {
+.card-image {
   transition: .3s linear;
+  /* opacity: 0.75; */
+  color: pink;
+
 }
+
+/* .card-image:hover {
+    transition: .3s linear;
+    background: linear-gradient(to right, rgba(0, 0, 0, .22), rgba(0, 0, 0, .22)) ; 
+} */
+
+.card-image:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  bottom: 0;
+  transition: 0.3s linear ease-out;
+  background: linear-gradient(to right, rgba(0, 0, 0, .12), rgba(0, 0, 0, .12));
+}
+.card-image:hover:before {
+  height: 100%;
+}
+
 </style>
