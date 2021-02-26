@@ -17,7 +17,7 @@
 
             <p>
               Enter your email address to subscribe to this blog
-              and receive notifications of new posts by email.
+              and receive notifications of new recipes!
             </p>
 
             <v-row class="pa-2">
@@ -46,6 +46,10 @@
                 Subscribe
               </v-btn>
             </v-row>
+            <p v-if="message">
+              <br/>
+              Please enter a valid email address.
+            </p>
           </v-col>
 
           <!-- <v-col
@@ -124,15 +128,34 @@
     data () {
       return {
         email: '',
+        reg: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/,
+        message: '',
       }
     },
 
     methods: {
       handleClick: function() {
-        this.addSubscriber()
+        this.validateEmail()
+      },
+
+      handleMessage: function(status) {
+        console.log('HIT HANDLE MSG')
+        if(status == "success") {
+          console.log('HIT SUCCESS')
+          this.message = "Now we're cooking! Thanks for subscribing!"
+        } 
+        if (status == "invalid") {
+          console.log('EMAIL FAIL')
+          this.message = "Please enter a valid email address 🍪"
+        }
+      },
+
+      validateEmail: function() {
+        return (this.email == "")? "" : (this.reg.test(this.email)) ? this.addSubscriber() : this.handleMessage("invalid")
       },
 
       addSubscriber: function() {
+        this.handleMessage("success")
         const subscribers = firebase.database().ref('subscribers')
         const newSub = subscribers.push()
         newSub.set({
@@ -149,7 +172,7 @@
   #subscribe {
     margin-bottom: 35px;
   }
-  
+
   #subscribe-container {
     color: white;
   }
