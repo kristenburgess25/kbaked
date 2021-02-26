@@ -22,7 +22,15 @@ firebase.initializeApp(config);
 // Get a reference to the database service
 var database = firebase.database();
 
-console.log('DATABAE', database)
+var subs = database.ref('subscribers')
+subs.on('value', (snapshot) => {
+  const data = snapshot.val()
+  console.log('IS THIS DATA', data)
+})
+
+// database.child("subscribers").get().then(function(snapshot) {
+//   console.log('IS THIS DATABAE CONTENTS', snapshot.val())
+// })
 
 new Vue({
   vuetify,
