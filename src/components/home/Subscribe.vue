@@ -46,9 +46,9 @@
                 Subscribe
               </v-btn>
             </v-row>
-            <p v-if="message">
+            <p class="message" v-if="message">
               <br/>
-              Please enter a valid email address.
+              {{ message }}
             </p>
           </v-col>
 
@@ -139,13 +139,10 @@
       },
 
       handleMessage: function(status) {
-        console.log('HIT HANDLE MSG')
         if(status == "success") {
-          console.log('HIT SUCCESS')
-          this.message = "Now we're cooking! Thanks for subscribing!"
+          this.message = "Now we're cooking! Thanks for subscribing 🍪 💖"
         } 
         if (status == "invalid") {
-          console.log('EMAIL FAIL')
           this.message = "Please enter a valid email address 🍪"
         }
       },
@@ -177,8 +174,13 @@
     color: white;
   }
 
-  #subscrine-btn {
+  #subscribe-btn {
     height: 48px;
     background-color: #00b9bc;
+  }
+
+  .message {
+    color: #00b9bc;
+    font-weight: bold;
   }
 </style>
