@@ -4,14 +4,12 @@
     tag="section"
   >
     <base-card
-      color="rgba(203, 170, 92, 0.51)"
+      color="rgb(118, 20, 20)"
       class="pa-3"
     >
-      <v-container>
+      <v-container id="subscribe-container">
         <v-row>
           <v-col
-            cols="12"
-            md="5"
           >
             <base-subheading class="mb-3">
               Subscribe
@@ -19,7 +17,7 @@
 
             <p>
               Enter your email address to subscribe to this blog
-              and receive notifications of new posts by email.
+              and receive notifications of new recipes!
             </p>
 
             <v-row class="pa-2">
@@ -29,23 +27,32 @@
               >
                 <v-text-field
                   hide-details
+                  v-model="email"
+                  class="textarea"
                   label="Your Email Address"
                   solo
+
                 />
               </v-responsive>
 
               <v-btn
                 :block="$vuetify.breakpoint.xsOnly"
+                id="subscribe-btn"
                 class="ma-0"
-                color="secondary"
+                color="#00b9bc"
                 style="height: 48px"
+                @click="handleClick()"
               >
                 Subscribe
               </v-btn>
             </v-row>
+            <p class="message" v-if="message">
+              <br/>
+              {{ message }}
+            </p>
           </v-col>
 
-          <v-col
+          <!-- <v-col
             cols="12"
             md="6"
             offset-md="1"
@@ -106,7 +113,7 @@
                 </v-list-item-subtitle>
               </v-list-item>
             </v-list>
-          </v-col>
+          </v-col> -->
         </v-row>
       </v-container>
     </base-card>
@@ -114,7 +121,66 @@
 </template>
 
 <script>
+  import firebase from 'firebase'
   export default {
     name: 'HomeSubscribe',
+
+    data () {
+      return {
+        email: '',
+        reg: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/,
+        message: '',
+      }
+    },
+
+    methods: {
+      handleClick: function() {
+        this.validateEmail()
+      },
+
+      handleMessage: function(status) {
+        if(status == "success") {
+          this.message = "Now we're cooking! Thanks for subscribing 🍪 💖"
+        } 
+        if (status == "invalid") {
+          this.message = "Please enter a valid email address 🍪"
+        }
+      },
+
+      validateEmail: function() {
+        return (this.email == "")? "" : (this.reg.test(this.email)) ? this.addSubscriber() : this.handleMessage("invalid")
+      },
+
+      addSubscriber: function() {
+        this.handleMessage("success")
+        const subscribers = firebase.database().ref('subscribers')
+        const newSub = subscribers.push()
+        newSub.set({
+          email: this.email
+        })
+      }
+    }
   }
+
+
 </script>
+
+<style>
+  #subscribe {
+    margin-bottom: 35px;
+  }
+
+  #subscribe-container {
+    color: white;
+  }
+
+  #subscribe-btn {
+    height: 48px;
+    background-color: #00b9bc;
+  }
+
+  .message {
+    color: #00b9bc;
+    font-weight: bold;
+  }
+</style>
