@@ -129,12 +129,10 @@
 
     methods: {
       handleClick: function() {
-        console.log(this.email)
-
         this.addSubscriber()
       },
+
       addSubscriber: function() {
-        console.log('hit add subscriber function')
         const subscribers = firebase.database().ref('subscribers')
         const newSub = subscribers.push()
         newSub.set({
@@ -148,6 +146,10 @@
 </script>
 
 <style>
+  #subscribe {
+    margin-bottom: 35px;
+  }
+  
   #subscribe-container {
     color: white;
   }
