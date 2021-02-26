@@ -22,15 +22,15 @@ firebase.initializeApp(config);
 // Get a reference to the database service
 var database = firebase.database();
 
+// Function for fetching subscribers 
+// probably won't actaully use but good to know how to get correct reference to db 
+// this will be the format for fetching recipes when those are moved to firebase
 var subs = database.ref('subscribers')
 subs.on('value', (snapshot) => {
   const data = snapshot.val()
-  console.log('IS THIS DATA', data)
+  console.log('subscribers', data)
 })
 
-// database.child("subscribers").get().then(function(snapshot) {
-//   console.log('IS THIS DATABAE CONTENTS', snapshot.val())
-// })
 
 new Vue({
   vuetify,
