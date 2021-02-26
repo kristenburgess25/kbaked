@@ -117,6 +117,7 @@
 </template>
 
 <script>
+  import firebase from 'firebase'
   export default {
     name: 'HomeSubscribe',
 
@@ -129,6 +130,16 @@
     methods: {
       handleClick: function() {
         console.log(this.email)
+
+        this.addSubscriber()
+      },
+      addSubscriber: function() {
+        console.log('hit add subscriber function')
+        const subscribers = firebase.database().ref('subscribers')
+        const newSub = subscribers.push()
+        newSub.set({
+          email: this.email
+        })
       }
     }
   }
