@@ -17,7 +17,7 @@
 
             <p>
               Enter your email address to subscribe to this blog
-              and receive notifications of new posts by email.
+              and receive notifications of new recipes!
             </p>
 
             <v-row class="pa-2">
@@ -46,6 +46,10 @@
                 Subscribe
               </v-btn>
             </v-row>
+            <p class="message" v-if="message">
+              <br/>
+              {{ message }}
+            </p>
           </v-col>
 
           <!-- <v-col
@@ -117,18 +121,43 @@
 </template>
 
 <script>
+  import firebase from 'firebase'
   export default {
     name: 'HomeSubscribe',
 
     data () {
       return {
         email: '',
+        reg: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/,
+        message: '',
       }
     },
 
     methods: {
       handleClick: function() {
-        console.log(this.email)
+        this.validateEmail()
+      },
+
+      handleMessage: function(status) {
+        if(status == "success") {
+          this.message = "Now we're cooking! Thanks for subscribing 🍪 💖"
+        } 
+        if (status == "invalid") {
+          this.message = "Please enter a valid email address 🍪"
+        }
+      },
+
+      validateEmail: function() {
+        return (this.email == "")? "" : (this.reg.test(this.email)) ? this.addSubscriber() : this.handleMessage("invalid")
+      },
+
+      addSubscriber: function() {
+        this.handleMessage("success")
+        const subscribers = firebase.database().ref('subscribers')
+        const newSub = subscribers.push()
+        newSub.set({
+          email: this.email
+        })
       }
     }
   }
@@ -137,12 +166,21 @@
 </script>
 
 <style>
+  #subscribe {
+    margin-bottom: 35px;
+  }
+
   #subscribe-container {
     color: white;
   }
 
-  #subscrine-btn {
+  #subscribe-btn {
     height: 48px;
     background-color: #00b9bc;
+  }
+
+  .message {
+    color: #00b9bc;
+    font-weight: bold;
   }
 </style>
