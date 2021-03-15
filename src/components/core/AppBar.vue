@@ -34,13 +34,7 @@
 
         <v-spacer />
 
-        <v-text-field
-          append-icon="mdi-magnify"
-          flat
-          hide-details
-          solo-inverted
-          style="max-width: 300px;"
-        />
+        <search />
       </v-row>
     </v-container>
   </v-app-bar>
@@ -65,6 +59,10 @@
 
   export default {
     name: 'CoreAppBar',
+
+    components: {
+      Search: () => import('@/components/Search')
+    },
 
     computed: {
       ...mapGetters(['links']),
