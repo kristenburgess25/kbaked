@@ -15,6 +15,7 @@
 
 <script>
   import {
+    mapState,
     mapGetters,
     mapMutations,
   } from 'vuex'
@@ -27,18 +28,48 @@
     }),
 
     computed: {
-      ...mapGetters(['links']),
+        ...mapState([
+            'articles', 
+            'displayArticles',
+            'viewCategory',
+        ]),
+        ...mapGetters(['links']),
     },
 
     methods: {
         searchRecipes: function() {
-            console.log(this.search)
+            
+            let searchTerm = this.search.toLowerCase(); 
+            let articles = this.articles;
+            let matches = []
 
-            let searchTerm = this.search; 
+            console.log("search term", searchTerm)
+            console.log("articles", articles)
 
-            let result = articles.filter(o => o.info.title.includes(searchTerm));
+            // search titles 
+            let titleMatch = articles.filter(o => o.title.toLowerCase().includes(searchTerm));
+            matches.push(...titleMatch)
+            console.log('title matches', titleMatch);
+            // search introduction 
+            let introMatch = articles.filter(o => o.introduction.toLowerCase().includes(searchTerm));
+            console.log('intro matches', introMatch);
+            matches.push(...introMatch)
+            // search categories 
+            let categoryMatch = articles.filter(o => o.category.toLowerCase().includes(searchTerm));
+            console.log('category matches', categoryMatch);
+            matches.push(...categoryMatch)
+            // search tags 
+            let tagMatch = articles.filter(o => o.tags.includes(searchTerm));
+            console.log('intro matches', tagMatch);
+            matches.push(...tagMatch)
 
-            console.log(result);
+            let uniqueMatches = matches.reduce((unique, article) => {
+                return unique.includes(article) ? unique : [...unique, article]
+            }, [])
+
+            console.log('unique matches', uniqueMatches)
+
+
         },
        
 
