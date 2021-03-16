@@ -5,6 +5,8 @@
         hide-details
         solo-inverted
         style="max-width: 300px;"
+        v-model="search"
+        v-on:change="searchRecipes"
     />
 </template>
 
@@ -20,11 +22,26 @@
   export default {
     name: 'Search',
 
+    data: () => ({
+        search: "",
+    }),
+
     computed: {
       ...mapGetters(['links']),
     },
 
     methods: {
+        searchRecipes: function() {
+            console.log(this.search)
+
+            let searchTerm = this.search; 
+
+            let result = articles.filter(o => o.info.title.includes(searchTerm));
+
+            console.log(result);
+        },
+       
+
       ...mapMutations(['toggleDrawer']),
       onClick (e, item) {
         e.stopPropagation()
