@@ -50,6 +50,10 @@
             let titleMatch = articles.filter(o => o.title.toLowerCase().includes(searchTerm));
             matches.push(...titleMatch)
             console.log('title matches', titleMatch);
+            // search tagline
+            let titleMatch = articles.filter(o => o.author.toLowerCase().includes(searchTerm));
+            matches.push(...titleMatch)
+            console.log('title matches', titleMatch);
             // search introduction 
             let introMatch = articles.filter(o => o.introduction.toLowerCase().includes(searchTerm));
             console.log('intro matches', introMatch);
