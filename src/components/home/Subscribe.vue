@@ -151,8 +151,13 @@
         return (this.email == "")? "" : (this.reg.test(this.email)) ? this.addSubscriber() : this.handleMessage("invalid")
       },
 
+      resetInput: function() {
+        this.email = ""
+      },
+
       addSubscriber: function() {
         this.handleMessage("success")
+        this.resetInput()
         const subscribers = firebase.database().ref('subscribers')
         const newSub = subscribers.push()
         newSub.set({
