@@ -121,7 +121,7 @@
 </template>
 
 <script>
-  import firebase from 'firebase'
+  // import firebase from 'firebase'
   export default {
     name: 'HomeSubscribe',
 
@@ -155,15 +155,15 @@
         this.email = ""
       },
 
-      addSubscriber: function() {
-        this.handleMessage("success")
-        this.resetInput()
-        const subscribers = firebase.database().ref('subscribers')
-        const newSub = subscribers.push()
-        newSub.set({
-          email: this.email
-        })
-      }
+      // addSubscriber: function() {
+      //   this.handleMessage("success")
+      //   this.resetInput()
+      //   const subscribers = firebase.database().ref('subscribers')
+      //   const newSub = subscribers.push()
+      //   newSub.set({
+      //     email: this.email
+      //   })
+      // }
     }
   }
 
